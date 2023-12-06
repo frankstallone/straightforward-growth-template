@@ -163,12 +163,15 @@
 flex-1 {
   flex: 1 1 0%;
 }
+
 flex-auto {
   flex: 1 1 auto;
 }
+
 flex-initial {
   flex: 0 1 auto;
 }
+
 flex-none {
   flex: none;
 }
@@ -320,6 +323,38 @@ Utilities for controlling how grid items are aligned along their inline axis. */
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-strike {
+  text-decoration: line-through;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.no-underline {
+  text-decoration-line: none;
 }
 
 .font-weight-base {
@@ -514,28 +549,6 @@ Utilities for controlling how grid items are aligned along their inline axis. */
   border-radius: var(--border-radius);
 }
 
-.lines-overlay {
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
-}
-
-.lines-overlay::before {
-  position: absolute;
-  content: '';
-  inset: -120%;
-  z-index: -1;
-  width: 400%;
-  height: 400%;
-  opacity: 0.015;
-  background-blend-mode: screen;
-  background: url('/images/loumarc-signs-lines.svg') no-repeat;
-}
-
-.lines-overlay[data-opacity='dark']::before {
-  opacity: 0.5;
-}
-
 /* Object Fit
 Utilities for controlling how a replaced element's content should be resized. */
 
@@ -619,6 +632,37 @@ Utilities for controlling how an element is positioned in the DOM. */
 
 .sticky {
   position: sticky;
+}
+
+/* Z-Index
+Utilities for controlling the stack order of an element. */
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-auto {
+  z-index: auto;
 }
 
 /* Overflow
