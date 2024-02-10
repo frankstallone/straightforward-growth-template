@@ -1,6 +1,6 @@
 # Astro Starter Kit: Straightfoward Growth Template
 
-A stripped down template from frankstall.one using best practices I've learned throughout the years to build desirable performant websites.
+An [Astro](https://astro.build) template from [frankstall.one](https://frankstall.one) using best practices I've learned throughout the years to build desirable performant websites.
 
 ## 🚀 Project Structure
 
